@@ -1,6 +1,6 @@
 package org.enums;
 
-public enum WeekDay {
+public enum DayOfTheWeek {
     MONDAY,
     TUESDAY,
     WEDNESDAY,
