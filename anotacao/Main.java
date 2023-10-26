@@ -1,5 +1,3 @@
-package org.example;
-
 import org.example.model.CarroObserver;
 import org.example.observer.Observable;
 
