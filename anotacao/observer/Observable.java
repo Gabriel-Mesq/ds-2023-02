@@ -1,5 +1,3 @@
-package org.example.observer;
-
 import lombok.Getter;
 import org.example.annotation.Observer;
 
