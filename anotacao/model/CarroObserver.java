@@ -1,5 +1,3 @@
-package org.example.model;
-
 import org.example.annotation.Observer;
 import org.example.observer.ObserverInterface;
 
