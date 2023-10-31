@@ -1,1 +1,1 @@
-Quantidade de exercícios realizados: xx
+Quantidade de exercícios realizados: 13
