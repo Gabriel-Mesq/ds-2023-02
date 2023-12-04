@@ -12,6 +12,5 @@ public class Main {
 
         // Algum evento no objeto observado
         carro.notifyObservers();
-
     }
 }
