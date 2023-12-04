@@ -11,8 +11,7 @@ public class MetodoAproximacoesNewtonTest {
     @Test
     public void squareRootTest() {
 
-        //terceiro parametro definido no teste para tolerancia (ou precisao) permitida para a diferenca entre o valor
-        //calculado da raiz quadrada e o valor esperado.
+        //terceiro parametro definido no teste para tolerancia (ou precisao) permitida para a diferenca entre o valor calculado da raiz quadrada e o valor esperado.
 
         // Teste com numeros positivos
         assertEquals(2.0, MetodoAproximacoesNewton.carcularRaizQuadrada(4.0, 0.0001), 0.0001);
