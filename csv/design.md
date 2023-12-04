@@ -1,4 +1,4 @@
-# Design de software para ler arquivo .csv
+# Design de software para ler um arquivo .csv
 
 ## Objetivo
 O objetivo é produzir um software que lê um arquivo no formato CSV e, para cada linha, calcula a soma das duas primeiras colunas e gera um arquivo CSV. O arquivo gerado deve conter uma coluna adicional com a soma das duas primeiras colunas.
