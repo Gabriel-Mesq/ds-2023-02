@@ -1,6 +1,6 @@
 # Perguntas
 
-- Qual a estratégia que você atualmente emprega para dar nomes a variáveis
+- Qual a estratégia que você atualmente emprega para dar nomes a variáveis?
 - É uma estratégia intencional ou acidental?
 - É consciente ou inconsciente?
 
