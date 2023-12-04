@@ -1,16 +1,39 @@
-import org.example.model.CarroObserver;
-import org.example.observer.Observable;
+package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Observable carro = new Observable("carro");
 
-        CarroObserver observer = new CarroObserver();
-        carro.addObserver(observer);
+        ConcreteObservable concreteObservable = new ConcreteObservable("carro");
 
-        carro.associarObserver(observer);
+        @Observer(observado = "carro")
+        class CarroObserver implements InterfaceObserver{
+            @Override
+            public void atualizar() {
+                System.out.println("Identificador carro");
+            }
+        }
 
-        // Algum evento no objeto observado
-        carro.notifyObservers();
+        try{
+            concreteObservable.addObserver(new CarroObserver());
+        }  catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+
+        concreteObservable.addObserverSemIdentificador(
+                () -> {
+                    System.out.println("Atualizar sem identificador");
+                }
+        );
+
+
+        // LAMBDA
+        teste(() -> {
+            System.out.println("Atualizar lambda");
+        });
+
+    }
+
+    static void teste(InterfaceObserver i){
+        i.atualizar();
     }
 }
