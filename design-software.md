@@ -9,4 +9,4 @@ Segundo a norma ISO/IEC/IEEE 24765:2017: é "o uso de princípios científicos, 
 - Gerenciar o projeto de design
 
 ## Você tinha conhecimento destas atividades e os entregáveis correspondentes? (sim/não)
-Não
+Não.
